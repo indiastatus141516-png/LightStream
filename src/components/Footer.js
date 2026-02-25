@@ -20,14 +20,14 @@ const Footer = () => {
               onClick={() => handleTopNavigate("/")}
               className="flex items-center gap-2 mb-4 bg-none border-none cursor-pointer p-0"
             >
-              <img src="/assets/img/logo.svg" alt="LendingClub" className="h-8 w-auto" />
+              <img src="/assets/img/lightstream.jpeg" alt="LightStream" className="h-12 md:h-14 w-auto" />
             </button>
             <p className="text-xs sm:text-sm text-gray-300 mb-3 leading-relaxed">
-              LendingClub is America's largest lending marketplace, connecting borrowers with investors since 2007.
+              LightStream is America's largest lending marketplace, connecting borrowers with investors since 2007.
             </p>
             <div className="flex gap-3 text-base">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300 text-sm">f</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">𝕏</a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">X</a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">in</a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">ig</a>
             </div>
@@ -115,8 +115,8 @@ const Footer = () => {
             <button className="hover:text-white transition duration-300 bg-none border-none cursor-pointer p-0">Accessibility</button>
           </div>
           <div className="text-xs text-gray-500 text-center md:text-right">
-            <p>© 2026 LendingClub. All rights reserved.</p>
-            <p className="text-xs text-gray-600 mt-1">LendingClub Bank, N.A., NMLS ID 167439. LendingClub Bank is FDIC insured.</p>
+            <p>&copy; 2026 LightStream. All rights reserved.</p>
+            <p className="text-xs text-gray-600 mt-1">LightStream Bank, N.A., NMLS ID 167439. LightStream Bank is FDIC insured.</p>
             <p className="text-xs text-gray-600 mt-0.5">All loans are subject to credit approval. Your actual rate depends on credit score, loan amount, loan term, and credit usage & history.</p>
           </div>
         </div>

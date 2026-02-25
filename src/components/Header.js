@@ -9,9 +9,9 @@ const Header = () => {
       <nav className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16 py-3 md:py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 md:gap-3 flex-shrink-0">
           <img
-            src="/assets/img/logo.svg"
-            alt="LendingClub"
-            className="h-6 md:h-8 w-auto"
+            src="/assets/img/lightstream.jpeg"
+            alt="LightStream"
+            className="h-10 md:h-12 w-auto"
           />
         </Link>
 

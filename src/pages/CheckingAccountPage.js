@@ -135,7 +135,7 @@ export default function CheckingSection() {
       icon: <ZapIcon />,
       title: "Instant Transfers",
       description:
-        "Move money instantly between your LendingClub accounts or to external banks with ease.",
+        "Move money instantly between your LightStream accounts or to external banks with ease.",
     },
   ];
 
@@ -234,3 +234,4 @@ export default function CheckingSection() {
     </section>
   );
 }
+

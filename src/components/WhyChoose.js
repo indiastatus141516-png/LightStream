@@ -33,7 +33,7 @@ const WhyChoose = () => {
       <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Choose LendingClub?
+            Why Choose LightStream?
           </h2>
           <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-2">
             We've helped millions of people take control of their finances with
@@ -63,3 +63,4 @@ const WhyChoose = () => {
 };
 
 export default WhyChoose;
+
