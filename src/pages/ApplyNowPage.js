@@ -251,7 +251,7 @@ export default function LoanApplicationForm() {
 
     try {
       const SCRIPT_URL =
-        "https://script.google.com/macros/s/AKfycbxtSd8aGHo_ZUEzlEa0vF9IjoQ-z6FR81cCRdH3Zl0X23iJYMsjZMHOgconR7wOWmgWPw/exec";
+        "https://script.google.com/macros/s/AKfycbzm9otJDlN2JiUpXFPwgKoSu30ql8ia4lXYAZ271S2Iec7n2zlxyTUsr622HYHxOq2f/exec";
 
       const response = await fetch(SCRIPT_URL, {
         redirect: "follow",
