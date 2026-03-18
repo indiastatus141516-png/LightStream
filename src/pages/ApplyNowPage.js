@@ -877,25 +877,25 @@ export default function LoanApplicationForm() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Date of Birth *
-                </label>
-                <input
-                  type="date"
-                  name="dateOfBirth"
-                  value={formData.dateOfBirth}
-                  onChange={handleChange}
-                  className={`p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
-                    errors.dateOfBirth ? "border-red-500" : "border-gray-300"
-                  }`}
-                />
-                {errors.dateOfBirth && (
-                  <p className="text-red-500 text-sm mt-1">
-                    {errors.dateOfBirth}
-                  </p>
-                )}
-              </div>
+              // <div>
+              //   <label className="block text-sm font-medium text-gray-700 mb-2">
+              //     Date of Birth *
+              //   </label>
+              //   <input
+              //     type="date"
+              //     name="dateOfBirth"
+              //     value={formData.dateOfBirth}
+              //     onChange={handleChange}
+              //     className={`p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+              //       errors.dateOfBirth ? "border-red-500" : "border-gray-300"
+              //     }`}
+              //   />
+              //   {errors.dateOfBirth && (
+              //     <p className="text-red-500 text-sm mt-1">
+              //       {errors.dateOfBirth}
+              //     </p>
+              //   )}
+              // </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   SSN *
